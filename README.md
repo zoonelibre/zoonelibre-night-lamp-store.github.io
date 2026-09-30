@@ -28,3 +28,7 @@ Replace the demo 555 support numbers with your real business contact details and
 Upload the contents of this ZIP to your repository root, then go to:
 
 `Settings → Pages → Deploy from a branch → main → / (root)`
+
+
+## Logo fix
+This version includes favicon files so the Zoonelibre logo appears in the browser tab.
