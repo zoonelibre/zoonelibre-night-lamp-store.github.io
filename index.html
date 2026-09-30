@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Zoonelibre | Night Lamps & Ambient Lighting</title>
+  <meta name="description" content="Zoonelibre night lamp storefront with bedside lamps, smart lights, portable lamps and ambient lighting.">
+  <link rel="icon" href="assets/zoonelibre-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notice">REAL PRODUCT REFERENCE PRICES · Checked September 29, 2026 · Prices and availability can change</div>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#top"><img src="assets/zoonelibre-logo.png" alt="Zoonelibre logo"><span>ZOONELIBRE</span></a>
+      <nav class="navlinks">
+        <a href="#shop">Shop</a><a href="#why">Why Us</a><a href="#support">Support</a><a href="#faq">FAQ</a>
+        <button class="iconbtn" id="cartOpen">Cart · <span id="cartCount">0</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="kicker">Night lights for every mood</span>
+          <h1>Turn your room into your favorite place after dark.</h1>
+          <p>Explore bedside lamps, smart RGB lights, glass globes, portable lamps, vintage-inspired designs and modern statement lighting in a wide range of colors and prices.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#shop">Shop the Collection</a>
+            <a class="btn btn-ghost" href="#support">Get Lighting Advice</a>
+          </div>
+          <div class="trust">
+            <div>✓ 20 real product references</div><div>✓ Multiple colors & lamp styles</div><div>✓ Support & lighting advice</div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="https://image.thum.io/get/width/900/crop/900/noanimate/https://www.ikea.com/us/en/p/varmblixt-led-table-wall-lamp-orange-glass-round-90525150/" alt="VARMBLIXT official product page preview" onerror="this.onerror=null;this.src='assets/fallback-product.svg'">
+          <div class="meta"><strong>Featured: VARMBLIXT</strong><span>$89.99 reference price</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="container">
+        <div class="section-head">
+          <div><span class="kicker">Curated catalog</span><h2>Find your perfect night lamp</h2></div>
+          <p>Search by style, color and category. Product imagery is loaded as a live preview from each retailer source so customers can see the real listed product.</p>
+        </div>
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="Search lamps, colors, brands…">
+          <select id="category"></select>
+          <select id="color"></select>
+          <select id="sort"><option value="">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name A–Z</option></select>
+        </div>
+        <div class="products" id="products"></div>
+      </div>
+    </section>
+
+    <section class="section soft" id="why">
+      <div class="container">
+        <div class="section-head"><div><span class="kicker">Why Zoonelibre</span><h2>Lighting made easier to shop</h2></div></div>
+        <div class="grid3">
+          <div class="value"><b>Different styles</b><p>Smart RGB, opal glass, globe lamps, pleated shades, portable lights, vintage-inspired designs and decorative statement pieces.</p></div>
+          <div class="value"><b>Different colors</b><p>White, pink, orange, beige, black, brass, chrome, silver and multicolor smart lighting options.</p></div>
+          <div class="value"><b>Price transparency</b><p>Every product card includes a current retail reference price and a direct source link for verification.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="support">
+      <div class="container">
+        <div class="support">
+          <div>
+            <span class="kicker">Customer care</span>
+            <h2>Need help choosing a lamp?</h2>
+            <p>Our demo support section is ready for order questions, room-lighting guidance and product selection assistance. Replace the demo contact details with your official business information before launch.</p>
+            <div class="actions"><a class="btn btn-light" href="tel:+14045550186">Call Support</a><a class="btn btn-ghost" href="mailto:support@zoonelibre.com">Email Us</a></div>
+          </div>
+          <div class="contactbox">
+            <a href="tel:+14045550186"><strong>Customer Support</strong><br>+1 (404) 555-0186</a>
+            <a href="tel:+14045550147"><strong>Lighting Advisory</strong><br>+1 (404) 555-0147</a>
+            <a href="mailto:support@zoonelibre.com"><strong>Email</strong><br>support@zoonelibre.com</a>
+            <div style="padding-top:11px;color:#cdd0df"><strong>Hours</strong><br>Mon–Fri · 9:00 AM–6:00 PM ET</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="faq">
+      <div class="container faq">
+        <div class="section-head"><div><span class="kicker">Help center</span><h2>Frequently asked questions</h2></div></div>
+        <details><summary>Are the prices real?</summary><p>Yes. The catalog uses retail reference prices researched from the linked retailer listings on September 29, 2026. Retail prices, promotions and stock can change at any time.</p></details>
+        <details><summary>Are the product images real?</summary><p>The storefront loads live previews of the linked official retailer product pages. This keeps the demo connected to the real product listing instead of packaging third-party photography inside the ZIP.</p></details>
+        <details><summary>Can customers pay on this site?</summary><p>The included cart works locally, but checkout is intentionally a demo. Connect a real payment and order platform such as Stripe, PayPal, Shopify or another provider before accepting orders.</p></details>
+        <details><summary>Can I change products and prices?</summary><p>Yes. Edit <code>products.js</code> to add, remove or update products, prices, categories, colors and source links.</p></details>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container newsletter">
+        <div><span class="kicker">Zoonelibre updates</span><h2>Get 10% off your first order</h2><p>Use this section for promotions, new arrivals and lighting ideas.</p></div>
+        <form id="newsletter"><input required type="email" placeholder="Email address"><button class="btn btn-primary">Join Now</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><div class="brand"><img src="assets/zoonelibre-logo.png" alt=""><span>ZOONELIBRE</span></div><p>Night lamps, bedside lighting and ambient light inspiration for cozy spaces.</p></div>
+      <div><strong>Shop</strong><a href="#shop">All Lamps</a><a href="#shop">Smart Lamps</a><a href="#shop">Portable Lamps</a></div>
+      <div><strong>Help</strong><a href="#support">Contact</a><a href="#faq">FAQ</a><a href="PRICE_SOURCES.md">Price Sources</a></div>
+      <div><strong>Policies</strong><a href="README.md">Store Setup</a><a href="#faq">Returns</a><a href="#faq">Shipping</a></div>
+    </div>
+    <div class="container footer-bottom">© 2026 Zoonelibre. Demo storefront. Third-party brand names and product imagery belong to their respective owners. Verify resale authorization, prices and stock before launch.</div>
+  </footer>
+
+  <div class="drawer" id="cartDrawer"><aside class="panel">
+    <div class="panel-head"><h2>Your Cart</h2><button class="x" id="cartClose">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="total"><span>Total</span><strong id="cartTotal">$0.00</strong></div>
+    <button class="btn btn-primary checkout" id="checkout">Secure Checkout</button>
+    <p class="disclaimer">Demo cart. Connect a real payment provider and fulfillment workflow before launch.</p>
+  </aside></div>
+
+  <div class="modal" id="productModal"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
